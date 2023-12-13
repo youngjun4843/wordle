@@ -1,0 +1,26 @@
+header {
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* 인포바 */
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.info-bar__time {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-bar__icons img {
+  width: 20px;
+}
+
+.first {
+  width: 20px;
+}
