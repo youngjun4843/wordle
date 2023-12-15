@@ -1,3 +1,5 @@
+let timer;
+
 const 시작_시간 = new Date();
 
 function setTime() {
@@ -9,7 +11,8 @@ function setTime() {
   timeH1.innerText = `time : ${분}:${초}`;
 }
 
-setInterval(setTime, 1000);
+timer = setInterval(setTime, 1000);
+// console.log(timer);
 
 // const 시작_시간 = new Date();
 

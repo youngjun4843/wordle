@@ -1,9 +1,10 @@
 .delete-icon {
   width: 30px;
   height: 30px;
-  border: 3px solid black;
+  border: 3px solid gray;
   border-radius: 5px;
   padding: 5px 0 5px 0;
+  cursor: pointer;
 }
 
 .key-row-block {
@@ -12,11 +13,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid black;
+  border: 3px solid gray;
   border-radius: 5px;
   padding: 5px 0 5px 0;
   margin: 2px;
   background-color: whitesmoke;
+  cursor: pointer;
 }
 
 .key-row {
@@ -29,4 +31,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
